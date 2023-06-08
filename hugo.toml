@@ -1,0 +1,68 @@
+# baseURL = "https://your_domain.com/"
+languageCode = "zh-Hant-TW"
+# defaultContentLanguage = "zh-Hant-TW"
+
+title = "BioLink ~ NoeEdge"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "離緣 NoeEdge"
+  headline = "脫離世俗 與緣相遇"
+#   image = "img/author.jpg"  # path relative to static directory
+
+  links = [
+    # { github = { href = "https://github.com/jpanther/lynx", text = "GitHub Project" } },
+    { email = "mailto:jeffyang0123+NeEd@gmail.com" },
+    { link = { href = "cloud2_0120", text = "﹫若昀行飛" }},
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    { discord = "https://discord.com/users/1053979170734088193" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    { github = "https://github.com/NoeEdge0120" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    { instagram = "https://instagram.com/noeedge0120" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { linkedin = "https://linkedin.com/in/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    { reddit = "https://reddit.com/user/NoeEdge0120" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { stack-exchange = "https://stackexchange.com/users/userid/username" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    { steam = "https://steamcommunity.com/id/NoeEdge0120" },
+    { telegram = "https://t.me/NoeEdge0120" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    { twitter = "https://twitter.com/NoeEdge0120" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    { youtube = "https://youtube.com/@NoeEdge0120" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
