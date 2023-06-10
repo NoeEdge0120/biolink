@@ -56,7 +56,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
+      - name: 上傳網站檔案
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
@@ -69,6 +69,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 部屬到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
